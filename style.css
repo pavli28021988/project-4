@@ -1,0 +1,61 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Barlow&family=Noto+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /*font-family: 'Barlow', sans-serif;*/
+    /*font-family: 'Noto Sans', sans-serif;*/
+
+    font-family:  'Bagel Fat One', system-ui;
+    background-color: #F0FFF0;
+}
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: red;
+   
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  rgb(255,251,245,0.8);
+   
+    
+}
+
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-container{
+    margin: 10px 30%;
+    
+}
+.image-container img{
+    width: 100%;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    .image-container {
+        margin: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    
+}
